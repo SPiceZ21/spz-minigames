@@ -29,13 +29,6 @@ Config.Games = {
     start = "cystart", menu = "cyclonemenu",
   },
   {
-    id = "escalation", resource = "spz-escalation", kind = "lobby", ev = "spz-escalation:",
-    title = "Escalation", icon = "arrow-trend-up", accent = "#f97316",
-    blurb = "Push enemies off the deck to climb one shared random car sequence. A push in the finale car wins — or most pushes at the buzzer.",
-    start = "escstart", menu = "escalationmenu",
-    modes = { { id = "team", label = "Team" }, { id = "solo", label = "Solo" } },
-  },
-  {
     id = "pursuit", resource = "spz-pursuit", kind = "pursuit",
     title = "Hot Pursuit", icon = "car-on", accent = "#3b82f6",
     blurb = "One robber breaks out of Pacific Standard, the cops (and a PD chopper) hunt them down.",
@@ -78,5 +71,4 @@ Config.Npcs = {
   { game = "bomb",         model = "s_m_y_ammucity_01", coords = vec4(191.5, -952.0, 30.1, 320.0) },
   { game = "demolition",   model = "s_m_m_autoshop_01", coords = vec4(196.0, -956.0, 30.1, 320.0) },
   { game = "cyclone",      model = "s_m_y_construct_01", coords = vec4(200.5, -960.0, 30.1, 320.0) },
-  { game = "escalation",   model = "s_m_y_marine_01",    coords = vec4(205.0, -964.0, 30.1, 320.0) },
 }
