@@ -57,7 +57,6 @@ Config.Games = {
 -- In-game HUD look for games that use the shared HUD (client/hud.lua) but are
 -- not in the hub list above. Hub games reuse their Config.Games title/icon/accent.
 Config.HudExtra = {
-  ["spz-hideseek"] = { title = "RC Hide & Seek", icon = "user-secret", accent = "#22c55e" },
 }
 
 -- Minigame NPCs: walk up, press E, the hub opens on that game.
