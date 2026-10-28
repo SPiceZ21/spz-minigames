@@ -3,7 +3,7 @@ game 'gta5'
 
 name 'spz-minigames'
 description 'SPiceZ Minigame Hub — one NUI to queue, start, invite and track Color Rush, Hot Pursuit, Rocket League, Bomb Tag and Demolition, plus the shared in-game HUD they draw with.'
-version '1.0.0'
+version '1.0.1'
 author 'SPiceZ-Core'
 lua54 'yes'
 
