@@ -13,12 +13,13 @@ shared_scripts {
 }
 
 client_scripts {
+    '@spz-hud/shim.lua',   -- NUI goes through spz-hud
   'client/main.lua',
   'client/hud.lua',
   'client/npcs.lua',
 }
 
-ui_page 'ui/index.html'
+-- ui_page 'ui/index.html'  -- drawn by spz-hud now (web/public/apps/spz-minigames); uncomment + drop the shim to roll back
 
 files {
   'ui/index.html',
@@ -35,5 +36,6 @@ files {
 -- callbacks/events that minigame already exposes. A game whose resource is
 -- not started is shown as offline, so none of them is a hard dependency.
 dependencies {
+    'spz-hud',
   'ox_lib',
 }
