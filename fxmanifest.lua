@@ -21,16 +21,8 @@ client_scripts {
 
 -- ui_page 'ui/index.html'  -- drawn by spz-hud now (web/public/apps/spz-minigames); uncomment + drop the shim to roll back
 
-files {
-  'ui/index.html',
-  'ui/style.css',
-  'ui/app.js',
-  'ui/hud.css',
-  'ui/hud.js',
-  'ui/keyglyph.js',
-  'ui/keyglyph.css',
-  'ui/fonts/*.ttf',
-}
+-- UI files are not shipped from here: spz-hud serves this resource's page
+-- (synced from ui/ by spz-hud/tools/sync-apps.mjs).
 
 -- The hub owns no game logic: it talks to each minigame through the lobby
 -- callbacks/events that minigame already exposes. A game whose resource is
