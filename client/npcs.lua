@@ -107,6 +107,9 @@ CreateThread(function()
         -- Hidden inside minigames / races.
         local st = LocalPlayer.state
         local busy = st.inMinigame or st.inRace
+            -- and while the TAB hub is open: its map draws the minigames as pins,
+            -- and these world labels piled up over it.
+            or (GetResourceState('spz-hud') == 'started' and exports['spz-hud']:IsHubOpen())
 
         for _, n in ipairs(spawned) do
             local d = #(me - n.pos)
