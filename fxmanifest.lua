@@ -17,6 +17,7 @@ client_scripts {
   'client/main.lua',
   'client/hud.lua',
   'client/npcs.lua',
+  'client/mappins.lua',   -- GetMapPins: the minigame NPCs
 }
 
 -- ui_page 'ui/index.html'  -- drawn by spz-hud now (web/public/apps/spz-minigames); uncomment + drop the shim to roll back
